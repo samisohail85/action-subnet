@@ -15,7 +15,7 @@ variable "vpc" {
   default = "test"
 }
 
-variable "subnet-region" {
+variable "region" {
   type = string
   default     = "us-central1"
   description = "Zone associated with the subnet. Defaults to the region configured in the provider."
